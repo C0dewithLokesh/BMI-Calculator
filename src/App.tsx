@@ -36,8 +36,8 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
-import { text } from "ionicons/icons";
 import InputControl from "./components/InputControl";
+import Chatbot from "./components/Chatbot";
 
 setupIonicReact();
 
@@ -138,7 +138,12 @@ const App: React.FC = () => {
 
             {calculatedBmi && <BmiResult result={calculatedBmi} />}
           </IonGrid>
+
+          <Chatbot />
+
         </IonContent>
+
+        
       </IonApp>
     </>
   );
