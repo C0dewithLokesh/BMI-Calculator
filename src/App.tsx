@@ -96,7 +96,7 @@ const App: React.FC = () => {
       />
       <IonApp>
         <IonHeader>
-          <IonToolbar color={"primary"}>
+          <IonToolbar color={"primary"} className="ion-text-center">
             <IonTitle>BMI Calculator</IonTitle>
           </IonToolbar>
         </IonHeader>

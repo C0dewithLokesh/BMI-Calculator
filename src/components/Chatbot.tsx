@@ -47,7 +47,7 @@ const Chatbot: React.FC = () => {
   return (
     <>
     <IonHeader className='ion-margin-vertical'>
-      <IonToolbar className="ion-text-center">
+      <IonToolbar className="ion-text-center" color={"primary"}>
         <IonTitle>Chatbot</IonTitle>
       </IonToolbar>
     </IonHeader>
